@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AdminServer.cs" />
+    <Compile Remove="HttpServer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\DeepCore\DeepCore\DeepCore.csproj" />
     <ProjectReference Include="..\..\DeepCore\DeepCrystal\DeepCrystal.csproj" />
   </ItemGroup>
